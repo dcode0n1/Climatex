@@ -7,9 +7,8 @@ export const AndroidLarge = () => {
   return (
     <div className="w-full flex flex-row justify-center bg-white">
       <div
-        className={`bg-white relative ${screenWidth < 1080 ? "w-[360px]" : screenWidth >= 1080 ? "w-[1080px]" : ""} ${
-          screenWidth < 1080 ? "h-[1975px]" : screenWidth >= 1080 ? "h-[3593px]" : ""
-        } ${screenWidth < 1080 ? "overflow-hidden" : ""}`}
+        className={`bg-white relative ${screenWidth < 1080 ? "w-[360px]" : screenWidth >= 1080 ? "w-[1080px]" : ""} ${screenWidth < 1080 ? "h-[1975px]" : screenWidth >= 1080 ? "h-[3593px]" : ""
+          } ${screenWidth < 1080 ? "overflow-hidden" : ""}`}
       >
         {screenWidth < 1080 && (
           <div className="absolute w-[360px] h-[62px] top-0 left-0 bg-white">
@@ -28,11 +27,9 @@ export const AndroidLarge = () => {
         )}
 
         <div
-          className={`absolute ${screenWidth < 1080 ? "w-[364px]" : screenWidth >= 1080 ? "w-[897px]" : ""} ${
-            screenWidth < 1080 ? "left-0" : screenWidth >= 1080 ? "left-[114px]" : ""
-          } ${screenWidth < 1080 ? "top-[1508px]" : screenWidth >= 1080 ? "top-[107px]" : ""} ${
-            screenWidth < 1080 ? "h-[467px]" : screenWidth >= 1080 ? "h-[372px]" : ""
-          }`}
+          className={`absolute ${screenWidth < 1080 ? "w-[364px]" : screenWidth >= 1080 ? "w-[897px]" : ""} ${screenWidth < 1080 ? "left-0" : screenWidth >= 1080 ? "left-[114px]" : ""
+            } ${screenWidth < 1080 ? "top-[1508px]" : screenWidth >= 1080 ? "top-[107px]" : ""} ${screenWidth < 1080 ? "h-[467px]" : screenWidth >= 1080 ? "h-[372px]" : ""
+            }`}
         >
           {screenWidth < 1080 && (
             <img
@@ -58,11 +55,9 @@ export const AndroidLarge = () => {
           )}
 
           <img
-            className={`absolute ${screenWidth < 1080 ? "w-[360px]" : screenWidth >= 1080 ? "w-[445px]" : ""} ${
-              screenWidth < 1080 ? "left-0" : screenWidth >= 1080 ? "left-[452px]" : ""
-            } ${screenWidth < 1080 ? "top-[219px]" : screenWidth >= 1080 ? "top-0" : ""} ${
-              screenWidth < 1080 ? "h-[248px]" : screenWidth >= 1080 ? "h-[372px]" : ""
-            }`}
+            className={`absolute ${screenWidth < 1080 ? "w-[360px]" : screenWidth >= 1080 ? "w-[445px]" : ""} ${screenWidth < 1080 ? "left-0" : screenWidth >= 1080 ? "left-[452px]" : ""
+              } ${screenWidth < 1080 ? "top-[219px]" : screenWidth >= 1080 ? "top-0" : ""} ${screenWidth < 1080 ? "h-[248px]" : screenWidth >= 1080 ? "h-[372px]" : ""
+              }`}
             alt="Content"
             src={screenWidth < 1080 ? "/img/content.png" : screenWidth >= 1080 ? "/img/image-985.png" : undefined}
           />
@@ -281,7 +276,7 @@ export const AndroidLarge = () => {
                 Registered
               </div>
               <p className="relative w-[116px] mb-[-17.00px] mr-[-31.00px] [font-family:'Jost',Helvetica] font-normal text-[#969696] text-[10px] tracking-[0] leading-[16.0px]">
-                Category I Aif – Venture Capital Fund (angel Fund)
+                Category I Aif – Venture Capital Fund (Angel Fund)
                 <br />
                 sebi Registration Number: In/aif1/22-23/1234
                 <br />
